@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+    <ImageView
+        android:padding="7dp"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/countryImage"/>
+
+        <TextView
+            android:textColor="@color/white"
+            android:padding="7dp"
+            android:textAlignment="viewEnd"
+            android:text="Hello"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="25sp"
+            android:id="@+id/countryTex"/>
+    </LinearLayout>
+</LinearLayout>
